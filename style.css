@@ -386,6 +386,12 @@ body {
     --swiper-pagination-bottom: 0px;
 }
 
+.swiper-wrapper,
+.swiper-slide{
+    justify-content: center;
+    display: flex;
+}
+
 .servicesSwiper,
 .testimonialsSwiper {
     --swiper-pagination-color: #ffffff;
@@ -740,4 +746,5 @@ body {
         margin-top: 0;
     }
 }
+
 
