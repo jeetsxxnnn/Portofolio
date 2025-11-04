@@ -381,13 +381,18 @@ body {
 
 /* Swiper custom styles */
 .swiper {
+    padding-bottom: 50px;
+    --swiper-pagination-bottom: 0px;
+}
+
+.swiper_s21 {
     justify-content: center !important;
     padding-bottom: 50px;
     --swiper-pagination-bottom: 0px;
 }
 
-.swiper-wrapper,
-.swiper-slide{
+.swiper-wrapper_s21,
+.swiper-slide_s21 {
     justify-content: center !important;
     display: flex;
 }
@@ -746,6 +751,7 @@ body {
         margin-top: 0;
     }
 }
+
 
 
 
