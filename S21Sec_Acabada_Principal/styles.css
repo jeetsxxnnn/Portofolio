@@ -1,0 +1,693 @@
+.arial-websave{			font-family: Arial, Helvetica, Helvetica Neue, HelveticaNeue, Verdana, sans-serif;	}
+.arial-black-websave{	font-family: Arial Black, Arial Bold, Gadget, sans-serif;	}
+.arial-narrow-websave{	font-family: Arial Narrow, Arial, sans-serif;  }
+.helvetica-websave{		font-family: Helvetica, "HelveticaNeue", "Helvetica Neue", Arial, Verdana, sans-serif;	}
+.helvetica-neue-websave{font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;	}
+.lucida-sans-websave{	font-family:"Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Helvetica Neue, HelveticaNeue, Arial, sans-serif;  }
+.tahoma-websave{		font-family: Tahoma, Verdana, Segoe, sans-serif;  }
+.trebuchet-ms-websave{	font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;  }
+.verdana-websave{		font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;	}
+.georgia-websave{		font-family:"Georgia", "Times New Roman", Times, serif;	}
+.lucida-bright-websave{ font-family: Lucida Bright, Georgia, serif; }
+.palatino-websave{		font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif; }
+.times-new-roman-websave{	font-family: TimesNewRoman, Times New Roman, Times, Baskerville, Georgia, serif;  }
+.courier-new-websave{	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace; }
+.lucida-sans-typewriter-websave{	font-family: Lucida Sans Typewriter, Lucida Console, monaco, Bitstream Vera Sans Mono, monospace; }
+.copperplate-websave{	font-family: Copperplate, Copperplate Gothic Light, fantasy; }
+.papyrus-websave{		font-family: Papyrus, fantasy;  }
+.brush-script-mt-websave{	font-family: Brush Script MT, cursive;  }
+
+body {
+    margin: 0;                 /* Elimina los márgenes predeterminados */
+    padding: 0;                /* Elimina los rellenos predeterminados */
+    height: 100%;              /* Asegura que el body tenga al menos el 100% de altura */
+    background-image: url(fondo.jpg); /* Ruta de la imagen */
+    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+    background-attachment: fixed; /* Fija el fondo */
+    background-position: center right; /* Centra la imagen */
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+
+p, a, h1, h2, h3, h4{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Estilos generales para el header */
+.header {
+    z-index: 10;
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    display: flex;              /* Utilizamos Flexbox para alinear los elementos */
+    align-items: center;        /* Alinea verticalmente los elementos */
+    justify-content: space-between; /* Separar los elementos en los extremos */
+    text-align: left;
+    background: #00bbdc;
+    color: white;
+}
+
+.wrap_header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_s21sec{
+    padding-left: 35px;
+    width: auto;               /* Ajusta el tamaño de la imagen */
+    height: 90px;               /* Mantiene la relación de aspecto */
+}
+
+.header ul {
+    list-style-type: none;      /* Quita los puntos de la lista */
+    margin: 0;                  /* Elimina los márgenes */
+    padding: 0;                 /* Elimina los rellenos */
+    display: flex;              /* Alineamos las opciones de menú horizontalmente */
+    padding-right: 30px;
+}
+
+.header ul li {
+    margin-left: 10px;          /* Espacio entre los elementos de la lista */
+}
+
+.header ul li a {
+    text-decoration: none;      /* Elimina subrayado de los enlaces */
+    color: #ffffff;                /* Color del texto */
+    border: 0;
+    border-radius: 0;
+    font-family: 'raleway', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+
+.header ul li a:hover {
+    transition: 0.3s;
+    color: rgb(0, 4, 66);
+    font-weight: bold;
+}
+
+.header ul li a img {
+    justify-content: center;
+    height: 90;
+    width: auto;
+}
+
+.container1{
+    background-color: #292475b6;
+}
+
+.espaciador_sup1{
+    height: 150px;
+    width: 100%;
+}
+
+.espaciador_inf1{
+    height: 100px;
+    width: 100%;
+}
+
+.wrap_espaciador_sup1, .wrap_espaciador_inf1, .wrap_logo_container, .container_respuesta{
+    padding: 10px;
+}
+
+.container_medio1{
+    display: flex; /* Para que los elementos hijos estén uno al lado del otro */
+    justify-content: space-between; /* Espaciado entre los elementos */
+    align-items: center; /* Centra los elementos verticalmente */
+}
+
+.element_row_mini_container1,.element_row_container1, .anchura_container_respuesta, .espaciador_medio{
+    display: flex; /* Los hijos directos estarán en fila */
+}
+
+.espaciador_izq1{
+    display: flex;
+    width: 4.767%;
+    height: auto;
+}
+
+.anchura_container_respuesta{
+    width: 51.522%;
+    height: auto;
+}
+
+.espaciador_medio{
+    width: 9.599%;
+    height: auto;
+}
+
+.wrap_logo_container{
+    width: 34.081%;
+    height: auto;
+}
+
+.wrap_logo_container img{
+    vertical-align: center;
+}
+
+.container_respuesta{
+    text-align: left;
+    display: flex; /* Cambiamos a flex */
+    flex-direction: column; /* Los elementos hijos estarán uno debajo del otro */
+
+}
+
+.respuesta_incidentes{
+    margin-bottom: 20px;
+    text-align: left;
+    color: #FFFFFF;
+    font-family: "Raleway", Sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    box-sizing: border-box;
+}
+
+.texto_pequeño{
+    margin-bottom: 20px;
+    text-align: left;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-family: "Raleway", Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.4em;
+    letter-spacing: 0.8px;
+}
+
+.contacto{
+    font-family: "Raleway", Sans-serif;
+    border: none;
+    color: #FFFFFF;
+    font-size: 23px;
+    font-weight: 900;
+    background-color: #00BBDD;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    transition: all .3s;
+    padding: 20px 40px;
+}
+
+.boton_wrap a{
+    text-decoration: none;
+}
+
+.contacto:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: #ffda24;
+}
+
+.container2{
+    background-color: #FFFFFF;
+}
+
+.col-25{
+    width: 25%;
+}
+
+.element_row_mini_container1 img{
+    margin-bottom: 20px;
+    max-width: 100%; /* Ajusta el ancho máximo al contenedor */
+    max-height: 100%; /* Ajusta la altura máxima al contenedor */
+    width: auto; /* Mantén la proporción al redimensionar */
+    height: auto; /* Mantén la proporción al redimensionar */
+}
+
+.element_row_mini_container1 h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #00BBDD;
+    font-family: "Raleway", Sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2.7px;
+}
+
+.element_row_mini_container1 p{
+    margin: 0.85em 0;
+    font-size: 13px / 1.65em ;
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #001E62;
+    vertical-align: baseline;
+    text-align: center;
+}
+
+.container_THREAT_LANDSCAPE, .container_CRYPTOLOVE_LOADER, .container_MANAGED_DETECTION, .container_CIBERSEGURIDAD_INDUSTRIAL{
+    padding: 10px;
+}
+
+.container_separador{
+    max-width: 1140px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.separador_sup{
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+.container_separador_sup_inf{
+    width: 100%;
+}
+
+.separador_sup_inf{
+    max-width: 1140px;
+    padding: 10px;
+}
+
+.linea_separadora{
+    display: flex;
+    border-top: var(--divider-border-width) var(--divider-border-style) var(--divider-color);
+    --divider-border-style: solid;
+    --divider-color: #000000;
+    --divider-border-width: 1.5px;
+    
+}
+
+.separador_inf_linea{
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.mini_container2{
+    display: flex;
+}
+
+.wrap_mini_container2{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+
+.titulo_texto{
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    display: inline;
+}
+
+.titulo{
+    display: flex;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.titulo h2{
+    display: flex;
+    width: 100%;
+    font-family: 'raleway', Helvetica, Arial, sans-serif;
+    color: #2A2475;
+    font-size: 40px;
+    justify-content: center;
+    line-height: 1.3em;
+    letter-spacing: 4.2px;
+}
+
+.texto1{
+    max-width: 1140px;
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.texto1 h4{
+    font-family: 'raleway', Helvetica, Arial, sans-serif;
+    color: #7C7FAB;
+    font-size: 22px;
+    font-weight: 50;
+    line-height: 1.3em;
+    letter-spacing: 4.2px;
+}
+
+.element_row_mini_container3{
+    max-width: 1140px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.col-20{
+    width: 20%;
+}
+
+.mini_container3 .container_Servicios_Advisory{
+    justify-content: center;
+    align-items: center;
+}
+
+.container_Servicios_Advisory, .container_Infraestructura_ciberseguridad, .container_Managed_Detection_Response,
+.container_Probar_adaptar_prevenir, .container_Inteligencia_amenazas_avanzada{
+    width: 100%;
+    position: relative;
+    display: flex;
+    
+}
+
+.wrap_container_Servicios_Advisory, .wrap_container_Infraestructura_ciberseguridad, .wrap_container_Managed_Detection_Response,
+.wrap_container_Probar_adaptar_prevenir, .wrap_container_Inteligencia_amenazas_avanzada{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+}
+
+.block{
+    height: 188px;
+    width: 188px;
+    background-color: #00bbdc;
+    transition: background-color 0.2s ease-in-out;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.block:hover{
+    background-color: #AE2573;;
+    cursor: pointer;
+}
+
+.foto_texto{
+    height: auto;
+    width: 100%;
+}
+
+.foto_texto h4{
+    text-align: center;
+    font-family: 'raleway', Helvetica, Arial, sans-serif;
+    color: #7C7FAB;
+    font-size: 20px;
+    line-height: 1.1em;
+    margin-bottom: 8px;
+    font-weight: 100;
+}
+
+.container3{ 
+    background-color: #292475b6;
+}
+
+.separador_inf .separador_inf_linea{
+    margin-bottom: 50px;
+}
+
+.container_novedades{
+    vertical-align: middle;
+    align-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.inner_novedades{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    max-width: 1140px;
+}
+
+.wrap_inner_novedades{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.upper_spacer{
+    margin-bottom: 20px;
+    height: 25px;
+    width: 100%;
+}
+
+.titulo_novedades{
+    max-width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.container_novedades h2{
+    color: #FFFFFF;
+    font-size: 28px;
+    font-family: 'raleway', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: 3.1px;
+}
+
+.lower_spacer{
+    height: 25px;
+    width: 100%;
+}
+
+.element_row_wrap{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.element_row{
+    max-width: 1140px;
+    display: flex;
+    align-items: center;
+}
+
+.texto_novedades a{
+    font-family: "Raleway", Sans-serif;
+    font-weight: 300;
+    letter-spacing: 1.8px;
+}
+
+.novedades{
+    justify-content: center;
+    padding: 0 50px;    
+}
+
+.circle{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff00;
+    border-radius: 50%;
+    border: 3px solid #FFFFFF;
+}
+
+.logo_novedades{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.texto_novedades{
+    font-family: "Raleway", Sans-serif;
+    letter-spacing: 1.8px;
+    font-size: 20px;
+    line-height: 1.1em;
+    margin-bottom: 8px;
+}
+
+.texto_novedades a{
+    font-weight: none;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.container3 img{
+    height: 60px;
+    width: 60px;
+}
+
+.espaciador_inferior_container3{
+    display: block;
+}
+
+.espaciador_inferior_container3_inner{
+    display: flex;
+    height: 25px;
+    padding: 10px;
+    width: 100%;
+}
+
+.container4{
+    background-color: #2A2475;
+    color: #FFFFFF;
+    padding: 15px 0 0 0;
+    clear: both;
+    position: relative;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+.wrap_container4{
+    display: flex;
+    max-width: 1310px;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 50px;
+    clear: both;
+}
+
+.one_fourth{
+    margin-left: 6%;
+    width: 20.5%;
+}
+
+.one_fourth_1{
+    width: 20.5%;
+}
+
+.up_low_space{
+    padding: 0;
+    margin: 30px 0 30px 0;
+    overflow: hidden;
+}
+
+.container4_logo_s21sec img{
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: auto 465 / 304;
+    
+}
+
+.all_margin, .seguir_logo h4, .contacto2 h4, .contacto2 p, .Sobre_S21sec h4, .Sobre_S21sec p{
+    margin: 0.85em 0;
+}
+
+.redes_sociales{
+    display: flex;
+    justify-content: space-around;
+}
+
+.redes_sociales img{
+    height: 40px;
+    width: 40px;
+}
+
+
+.container4 h4{
+    font-family: 'raleway', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+}
+
+.container4 p{
+    font: 13px / 1.65em "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    vertical-align: baseline;
+}
+
+.Sobre_S21sec a{
+    text-decoration: none;
+    color: #00bcdd;
+}
+.Sobre_S21sec a:hover{
+    color: #ffffff;
+}
+
+.Entradas_recientes_searchbar ul{
+    padding-inline-start: 0px;
+    list-style: none outside;
+    float: none;
+}
+
+.Entradas_recientes_searchbar li{
+    border-top-width: 3px;
+    border-top-style: solid;
+    color: #FFFFFF;
+    padding: 7px 0px;
+    display: block;
+    font-size: 0.85em;
+    line-height: 1.5em;
+}
+
+.Entradas_recientes_searchbar a{
+    color: #00bcdd;
+    text-decoration: none;
+    font-style: italic;
+    font-family: "Georgia", "Times New Roman", Helvetica, Arial, sans-serif;
+}
+.Entradas_recientes_searchbar a:hover{
+    color: #ffffff;  
+}
+
+.footer{
+    background-color: #00bcdd;
+}
+
+.footer_wrap{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer p{
+    margin-left: 30px;
+}
+
+/*
+.Entradas_recientes_searchbar{
+    margin-left: 6%;
+    width: 20.5%;
+}
+
+.seguir_logo{
+    width: 20.5%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.Sobre_S21sec{
+    margin-left: 6%;
+    width: 20.5%;
+}
+
+.contacto2{
+    margin-left: 6%;
+    width: 20.5%;
+}
+
+.widget{
+    padding: 0;
+    margin: 30px 0 30px 0;
+    overflow: hidden;
+}
+
+.container4 h4{
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+}
+
+.redes_sociales_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.redes_sociales{
+    width: 240px;
+    position: absolute;
+    text-align: center;
+}*/
