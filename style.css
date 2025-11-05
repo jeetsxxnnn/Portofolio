@@ -408,32 +408,6 @@ body {
     font-size: 20px;
 }
 
-/* Projects Swiper - Solo un elemento centrado */
-.workswiper {
-    max-width: 500px !important;
-    margin: 0 auto !important;
-}
-
-.workswiper .swiper-pagination {
-    display: none !important;
-}
-
-.workswiper .swiper-button-next,
-.workswiper .swiper-button-prev {
-    display: none !important;
-}
-
-.workswiper .swiper-wrapper {
-    justify-content: center;
-}
-
-.workswiper .swiper-slide {
-    width: auto !important;
-    display: flex;
-    justify-content: center;
-}
-/* Projects Swiper Final */
-
 @media (max-width: 1199.98px) {
     .section-title {
         font-size: 120px;
@@ -765,4 +739,5 @@ body {
         margin-top: 0;
     }
 }
+
 
